@@ -40,7 +40,7 @@ Program Argument: http://localhost:8080
 ```
 
 ### Security
-One thing to note is how will the local instance of your application authenticate with the remote instance. 
+One thing to note is that how will the local instance of your application authenticate with the remote instance. 
 > To achieve that you need to add the below line in your `application.properties`
 
 What this essentially does is that when local changes are deployed to the remote instance, this entry is compared to make sure that the local and remote instances are actually the same.
