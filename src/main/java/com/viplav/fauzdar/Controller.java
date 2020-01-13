@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello Viplav!";
+        return "Hello Viplav Fauzdar!";
     }
 
     @GetMapping("/docker")
@@ -21,5 +21,8 @@ public class Controller {
 
     @GetMapping("/fun")
     public String fun(){return "Remote reloading is fun! This should reload too";}
+
+    @GetMapping("/fun1")
+    public String fun1(){return "Lets see if this reloads. And reload again! And again!";}
 
 }
