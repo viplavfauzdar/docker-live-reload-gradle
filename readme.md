@@ -32,6 +32,7 @@ bootJar {
 ### Run Configuration
 
 **IntelliJ**
+
 Next create a run configuration as follows. What this does is it uses devtols remote spring application feature. Which essentially is an embeded application with end points that listen to class changes.
 ```
 Main Class: org.springframework.boot.devtools.RemoteSpringApplication
