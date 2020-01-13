@@ -29,6 +29,8 @@ bootJar {
 </configuration>
 ```
 
+> The above can also be achieved by passing this parameter as a VM argument.
+
 ### Run Configuration
 
 **IntelliJ**
